@@ -44,6 +44,8 @@ class _LocationInputState extends State<LocationInput> {
     setState(() {
       _isGettingLocation = false;
     });
+
+    //using Google's Geocoding API - not completed
   }
 
   @override
